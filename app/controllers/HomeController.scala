@@ -21,11 +21,6 @@ class HomeController @Inject()(val controllerComponents: ControllerComponents) e
   def factorial(n: Long): Long = n match{
       case 0 => return 1
       case _ => return n*factorial(n-1)
-      
-      /*if (n == 0) 
-          return 1
-      else
-          return n * factorial(n-1)*/
     }
     
   def printFactorial(inputValue:Long)=Action{

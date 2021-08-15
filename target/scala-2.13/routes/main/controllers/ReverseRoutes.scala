@@ -6,17 +6,32 @@ import play.api.mvc.Call
 
 import _root_.controllers.Assets.Asset
 
-// @LINE:7
+// @LINE:9
 package controllers {
 
-  // @LINE:7
+  // @LINE:9
+  class ReverseAssets(_prefix: => String) {
+    def _defaultPrefix: String = {
+      if (_prefix.endsWith("/")) "" else "/"
+    }
+
+  
+    // @LINE:9
+    def versioned(file:Asset): Call = {
+      implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
+      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
+    }
+  
+  }
+
+  // @LINE:11
   class ReverseHomeController(_prefix: => String) {
     def _defaultPrefix: String = {
       if (_prefix.endsWith("/")) "" else "/"
     }
 
   
-    // @LINE:7
+    // @LINE:11
     def index(): Call = {
       
       Call("GET", _prefix)
@@ -32,21 +47,6 @@ package controllers {
     def printFactorial(inputValue:Int): Call = {
       
       Call("GET", _prefix + { _defaultPrefix } + "fact/" + play.core.routing.dynamicString(implicitly[play.api.mvc.PathBindable[Int]].unbind("inputValue", inputValue)))
-    }
-  
-  }
-
-  // @LINE:10
-  class ReverseAssets(_prefix: => String) {
-    def _defaultPrefix: String = {
-      if (_prefix.endsWith("/")) "" else "/"
-    }
-
-  
-    // @LINE:10
-    def versioned(file:Asset): Call = {
-      implicit lazy val _rrc = new play.core.routing.ReverseRouteContext(Map(("path", "/public"))); _rrc
-      Call("GET", _prefix + { _defaultPrefix } + "assets/" + implicitly[play.api.mvc.PathBindable[Asset]].unbind("file", file))
     }
   
   }
