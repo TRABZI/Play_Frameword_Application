@@ -1,0 +1,5 @@
+[0m[[0m[0mdebug[0m] [0m[0mCopy resource mappings: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amine/play/play-framework/conf/logback.xml,/home/amine/play/play-framework/target/scala-2.13/classes/logback.xml)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amine/play/play-framework/conf/messages,/home/amine/play/play-framework/target/scala-2.13/classes/messages)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amine/play/play-framework/conf/routes,/home/amine/play/play-framework/target/scala-2.13/classes/routes)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	(/home/amine/play/play-framework/conf/application.conf,/home/amine/play/play-framework/target/scala-2.13/classes/application.conf)[0m

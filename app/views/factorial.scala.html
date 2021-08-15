@@ -1,0 +1,24 @@
+@(fact: Long)
+
+@main("factorial") {
+    <style>
+        h1{
+            color: palevioletred;
+        }
+        h2{
+            color: green;
+        }
+    </style>
+    <h1> Recursive Algortithm for calculating factorial of Integer number: </h1>
+        <div>
+            <pre><code>
+                def factorial(n: Long): Long = n match{
+                    case 0 => return 1
+                    case _ => return n*factorial(n-1)
+                }
+            </code></pre>
+            
+             </div>
+             
+    <h2>=> Response to the Request : the factorial is @fact</h2>
+}
