@@ -30,7 +30,7 @@ Seq[Any](format.raw/*2.1*/("""
         """),format.raw/*6.62*/("""
         """),format.raw/*7.9*/("""<title>"""),_display_(/*7.17*/title),format.raw/*7.22*/("""</title>
         <link rel="stylesheet" media="screen" href=""""),_display_(/*8.54*/routes/*8.60*/.Assets.versioned("stylesheets/main.css")),format.raw/*8.101*/("""">
-        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*9.59*/routes/*9.65*/.Assets.versioned("images/favicon.png")),format.raw/*9.104*/("""">
+        <link rel="shortcut icon" type="image/png" href=""""),_display_(/*9.59*/routes/*9.65*/.Assets.versioned("images/new.png")),format.raw/*9.100*/("""">
 
     </head>
     <body>
@@ -57,8 +57,8 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/main.scala.html
-                  HASH: ce62db0146a70be335db2356698f1e2ee801135d
-                  MATRIX: 733->1|857->32|884->33|963->138|998->147|1032->155|1057->160|1145->222|1159->228|1221->269|1308->330|1322->336|1382->375|1445->500|1482->510|1510->517|1545->525|1586->539|1601->545|1662->585
+                  HASH: 0ca2da6479c00021d2838f8b95d78ba47f690607
+                  MATRIX: 733->1|857->32|884->33|963->138|998->147|1032->155|1057->160|1145->222|1159->228|1221->269|1308->330|1322->336|1378->371|1441->496|1478->506|1506->513|1541->521|1582->535|1597->541|1658->581
                   LINES: 21->1|26->2|27->3|30->6|31->7|31->7|31->7|32->8|32->8|32->8|33->9|33->9|33->9|37->14|38->15|38->15|40->17|40->17|40->17|40->17
                   -- GENERATED --
               */

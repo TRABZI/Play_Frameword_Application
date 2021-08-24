@@ -1,3 +1,12 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(run, Some(2f58ee50-759e-40f2-96a0-b20f20fef419), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: Compile / run[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mExporting web-assets:play-framework[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mshutting down sbt server[0m
+[0m[[0m[0mdebug[0m] [0m[0mForcing garbage collection...[0m
 [0m[[0m[31merror[0m] [0m[0mjava.io.IOException: Repérage non permis[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.io.FileInputStream.available0(Native Method)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.io.FileInputStream.available(FileInputStream.java:306)[0m
@@ -36,3 +45,8 @@
 [0m[[0m[31merror[0m] [0m[0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)[0m
 [0m[[0m[31merror[0m] [0m[0m	at java.lang.Thread.run(Thread.java:748)[0m
 [0m[[0m[31merror[0m] [0m[0m(Compile / [31mrun[0m) java.io.IOException: Repérage non permis[0m
+[0m[[0m[31merror[0m] [0m[0mTotal time: 84023 s (23:20:23), completed 16 août 2021 15:41:39[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0msbt server started at local:///home/amine/.sbt/1.0/server/ce62458d23654c2af94c/sock[0m
+[0m[[0m[0mdebug[0m] [0m[0mWriting bsp connection file[0m
+[0m[[0m[0minfo[0m] [0m[0mstarted sbt server[0m

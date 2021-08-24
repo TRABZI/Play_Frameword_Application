@@ -1,0 +1,13 @@
+body{
+    background-image:url(../images/scala2.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color:palevioletred
+}
+
+h2{
+    color:green;
+}
