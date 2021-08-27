@@ -25,7 +25,13 @@ object firstexample extends _root_.play.twirl.api.BaseScalaTemplate[play.twirl.a
 
 Seq[Any](format.raw/*2.1*/("""
 """),_display_(/*3.2*/main("Welcome to Introduction to Play Framework!")/*3.52*/ {_display_(Seq[Any](format.raw/*3.54*/("""
-    """),format.raw/*4.5*/("""<h1>Welcome to Introduction to Play Framework!</h1>
+    """),format.raw/*4.5*/("""<h1>Welcome to Play Framework!</h1>
+    <p>
+        <ul>
+            <li>to get the factoial of 10(or another integer) type :  http://localhost:9000/fact/10 </li>
+            <li>to get the sum of two integers type : http://localhost:9000/sum/10/20 </li>
+        </ul>
+    </p>
 """)))}))
       }
     }
@@ -43,7 +49,7 @@ Seq[Any](format.raw/*2.1*/("""
               /*
                   -- GENERATED --
                   SOURCE: app/views/firstexample.scala.html
-                  HASH: f2183aa147b471b1e2cf3aa091395a42901c76c3
+                  HASH: bb629b37300c74f6609581cf2219399e1fe33e5a
                   MATRIX: 729->1|825->4|852->6|910->56|949->58|980->63
                   LINES: 21->1|26->2|27->3|27->3|27->3|28->4
                   -- GENERATED --
